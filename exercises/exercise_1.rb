@@ -15,7 +15,7 @@ store3 = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: tru
 
 
 
-puts "i'm here#{Store.count}"
+puts "total stores: #{Store.count}"
 
 
 
