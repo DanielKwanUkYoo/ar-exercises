@@ -17,6 +17,7 @@ puts Store.count
 end
 
 @selected_store = Store.all.where(womens_apparel: true).where('annual_revenue > ?', 1000000)
+
 @selected_store.each do |each_store|
     puts each_store.name
 end
